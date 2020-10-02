@@ -262,7 +262,7 @@ public class pinball extends Applet implements Runnable
 			else if (player.getScore() < 200 && player.getScore() >= 100) g.drawString ("That was really good", 100, 190);
 			else if (player.getScore() < 400 && player.getScore() >= 200) g.drawString ("You seem to be very good!", 90, 190);
 			else if (player.getScore() < 700 && player.getScore() >= 400) g.drawString ("That was nearly perfect!", 90, 190);
-			else if (player.getScore() >= 1000) g.drawString ("You are the Champingon!",100, 190);
+			else if (player.getScore() >= 1000) g.drawString ("You are the Champion!",100, 190);
                 
               }  
 	}
